@@ -1,0 +1,44 @@
+<!-- Javascript:
+
+Write Javascript class with three methods that:
+      - increments an internal value when called
+      - returns the count of the same internal value
+      - resets the value back to 0 -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
+	<script type="text/babel">
+
+		class theeMethods {
+			constructor() {
+        this.value = 10;
+			}
+			consoleval() {
+				console.log(`our value ${this.value}`);
+			}
+      increments() {
+        this.value += 30;
+      }
+      returns() {
+
+      }
+      resets() {
+        this.value = 0;
+      }
+		}
+
+		var coolSkiVan = new theeMethods();
+
+    coolSkiVan.increments();
+    coolSkiVan.resets();
+		coolSkiVan.consoleval();
+
+	</script>
+	<title>Classes</title>
+</head>
+<body>
+</body>
+</html>
